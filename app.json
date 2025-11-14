@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "KDR Emap",
+    "slug": "kdremap",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "android": {
+      "package": "com.kipli7.kdremap",
+      "permissions": [
+        "BLUETOOTH",
+        "BLUETOOTH_ADMIN",
+        "ACCESS_FINE_LOCATION",
+        "BLUETOOTH_CONNECT",
+        "BLUETOOTH_SCAN"
+      ]
+    },
+    "plugins": [
+      "@config-plugins/react-native-ble-plx"
+    ]
+  }
+}
